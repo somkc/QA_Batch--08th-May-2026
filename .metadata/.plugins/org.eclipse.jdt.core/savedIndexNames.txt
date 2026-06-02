@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+S:\STUDY\JANBASK\QA Batch - 08th May 2026\.metadata\.plugins\org.eclipse.jdt.core
+1917049957.index
+1865797976.index
+4127752969.index
