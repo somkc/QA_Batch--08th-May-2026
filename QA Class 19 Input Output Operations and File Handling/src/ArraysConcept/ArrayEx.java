@@ -3,6 +3,7 @@ package ArraysConcept;
 public class ArrayEx {
 
 	public static void main(String[] args) {
+		//size in advance and kind of data
 		
 		String[] stud= new String[5];
 		stud[3]="Peter";
