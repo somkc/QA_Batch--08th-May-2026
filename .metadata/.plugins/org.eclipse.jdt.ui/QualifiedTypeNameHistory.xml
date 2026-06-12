@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="com.janbask.parameters.Student_Parameters"/>
+    <fullyQualifiedTypeName name="returnType.ReturnTypeEx2"/>
+    <fullyQualifiedTypeName name="Polymorphism.MethodOverloading"/>
 </qualifiedTypeNameHistroy>
