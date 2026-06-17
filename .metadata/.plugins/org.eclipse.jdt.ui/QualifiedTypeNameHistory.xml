@@ -4,4 +4,5 @@
     <fullyQualifiedTypeName name="com.janbask.parameters.Student_Parameters"/>
     <fullyQualifiedTypeName name="returnType.ReturnTypeEx2"/>
     <fullyQualifiedTypeName name="Polymorphism.MethodOverloading"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
