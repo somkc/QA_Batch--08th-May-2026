@@ -1,16 +1,20 @@
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 
-public class RightClick {
+public class FooterContent {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://demoqa.com/buttons");
-	
-	}
-
+		driver.get("https://www.telerik.com/support/demos");
+		
+		
+		driver.quit();
+			
+		}
 }
