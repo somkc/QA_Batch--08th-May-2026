@@ -1,20 +1,18 @@
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
-public class Frames_Example {
+public class DropDownAllSelection {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://testing.qaautomationlabs.com/iframe.php");
-		driver.switchTo().frame("iframe1");
+		driver.get("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
+		}
 		
-		
-
-	}
+	
 
 }
