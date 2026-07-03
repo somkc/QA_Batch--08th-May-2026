@@ -8,7 +8,23 @@ import org.testng.annotations.Test;
 
 public class LoginDataProvider {
 	
-	@Test
+	@DataProvider(name="loginData")
+	public String[][] data() {
+		String[][] cred= new String[3][2];
+		cred[0][0]="standard_user";
+		cred[0][1]="secret_sauce";
+		
+		cred[1][0]="locked_out_user";
+		cred[1][1]="secret_sauce";
+		
+		cred[2][0]="error_user";
+		cred[2][1]="secret_sauce";
+		
+		return cred;
+	}
+	
+	
+	@Test(dataProvider="loginData")
 	public void login(String username, String password) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

@@ -4,36 +4,36 @@ import org.testng.annotations.Test;
 
 public class GroupEx {
 	
-	@Test
+	@Test(groups= {"Smoke"})
 	public void login() {
 		System.out.println("login test");
 	}
 	
-	@Test
+	@Test(groups= {"Sanity"})
 	public void order() {
 		System.out.println("order test");
 	}
 
 	
-	@Test
+	@Test(groups= {"Regression"})
 	public void filter() {
 		System.out.println("filter test");
 	}
 
 	
-	@Test
+	@Test(groups= {"Smoke"})
 	public void logout() {
 		System.out.println("logout test");
 	}
 
 	
-	@Test
+	@Test(groups= {"Smoke,Regression"})
 	public void cart() {
 		System.out.println("cart test");
 	}
 
 	
-	@Test
+	@Test(groups= {"Smoke"})
 	public void checkout() {
 		System.out.println("checkout test");
 	}
